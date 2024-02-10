@@ -2,7 +2,7 @@
 
 body{
     zoom: 90%;
-    background-color: lightgray;
+    background-color: rgb(173, 173, 173);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -25,14 +25,22 @@ body{
 }
 
 
-#input{
+#leftContainer{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;   
+    justify-content: space-between;
 }
 
 
-button{
+#title{
+    font-family: 'Protest Strike', sans-serif;
+    font-size: 80px;
+    margin-bottom: 365px;
+    color: darkslateblue;
+}
+
+
+button, #bottom{
     margin: 40px;
     padding: 20px;
     font-family: 'Protest Strike', sans-serif;
@@ -40,4 +48,14 @@ button{
     background-color: darkslateblue;
     border-radius: 8px;
     color: lightgray;
+}
+
+#bottom{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.links{
+    margin: 10px;
 }

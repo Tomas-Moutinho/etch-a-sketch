@@ -19,6 +19,14 @@ gridBtn.addEventListener('click', () => {
 })
 
 
+const clearBtn = document.querySelector('#clearBtn');
+
+clearBtn.addEventListener('click', () => {
+    location.reload();
+})
+
+
+/////////////////////////////////FUNCTIONS/////////////////////////////////////////
 
 function createGrid(newGrid)
 {
@@ -42,7 +50,6 @@ function createGrid(newGrid)
         }
     }
 }
-
 
 function deleteGrid()
 {
